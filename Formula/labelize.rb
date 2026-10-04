@@ -7,22 +7,22 @@
 class Labelize < Formula
   desc "Turn ZPL/EPL into pixels — label rendering, simplified."
   homepage "https://github.com/GOODBOY008/labelize"
-  version "1.6.0"
+  version "1.7.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/GOODBOY008/labelize/releases/download/v1.6.0/labelize-aarch64-apple-darwin.tar.gz"
-      sha256 "bf87dd9632cea16cbb190f3cdee1afc1f9abc77a75780e8e8909bc47508462fa"
+      url "https://github.com/GOODBOY008/labelize/releases/download/v1.7.0/labelize-aarch64-apple-darwin.tar.gz"
+      sha256 "dd538293313f30a006ae245c77ea4e747a60549ae77ddf3896f7ba0e1c0c59c8"
     else
-      url "https://github.com/GOODBOY008/labelize/releases/download/v1.6.0/labelize-x86_64-apple-darwin.tar.gz"
-      sha256 "14fb3661eed13c2db50e0ddd59ad871c6be325836a0c601fcc19271f08897298"
+      url "https://github.com/GOODBOY008/labelize/releases/download/v1.7.0/labelize-x86_64-apple-darwin.tar.gz"
+      sha256 "693bb8bede586919a770c7db96193aa14f93b05fd0b18ec54679500afa3f93fd"
     end
   end
 
   on_linux do
-    url "https://github.com/GOODBOY008/labelize/releases/download/v1.6.0/labelize-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "1feadde01d12815eb6d070e01bea569ced4350512943f445bfda8b977e2d0fad"
+    url "https://github.com/GOODBOY008/labelize/releases/download/v1.7.0/labelize-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "2ec16a4cb5fddd86fbfd2fe96feb65d129c53007caab6842d0b49dfcd81d199f"
   end
 
   def install
